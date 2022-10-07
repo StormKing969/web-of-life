@@ -1,0 +1,19 @@
+.mission_container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mission_content {
+    margin-bottom: 3rem;
+    
+    h1 {
+        font-size: 4rem;
+    }
+
+    p {
+        font-size: 2rem;
+    }
+}

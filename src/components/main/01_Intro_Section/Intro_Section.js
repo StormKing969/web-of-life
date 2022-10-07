@@ -3,6 +3,8 @@ import Navbar from "../../core/Navbar/Navbar";
 import Bg01 from "./images/bg01.jpg";
 import Bg02 from "./images/bg02.jpg";
 import Bg03 from "./images/bg03.jpg";
+import { ImFacebook } from "react-icons/im";
+import { FiInstagram } from "react-icons/fi";
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -61,6 +63,17 @@ const Intro_Section = () => {
           <div className="intro_content_button">
             <Link to="/info">Learn More</Link>
           </div>
+
+          <div className="social_links">
+            <ul>
+                <li>
+                    <a href="/"><ImFacebook /></a>
+                </li>
+                <li>
+                    <a href="/"><FiInstagram /></a>
+                </li>
+            </ul>
+        </div>
         </div>
       </div>
     </div>
