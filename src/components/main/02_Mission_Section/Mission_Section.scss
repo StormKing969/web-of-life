@@ -1,19 +1,227 @@
 .mission_container {
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .mission_content {
-    margin-bottom: 3rem;
-    
-    h1 {
-        font-size: 4rem;
+  margin-bottom: 3rem;
+
+  h1 {
+    font-size: 4rem;
+  }
+
+  p {
+    font-size: 2rem;
+  }
+}
+
+.mission_groups {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  position: relative;
+  height: max-content;
+}
+
+.botany_group_display {
+  width: 100%;
+  height: max-content;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  padding: 2rem;
+  background-color: rgba(17, 17, 17, 0.905);
+  transition: all ease-in-out 0.3s;
+  cursor: pointer;
+  border-radius: 1rem;
+
+  .botany_group_display_img {
+    width: 100%;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+
+    img {
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+      border-radius: 1rem;
+    }
+  }
+
+  .botany_info {
+    color: white;
+    text-align: left;
+  }
+}
+
+.botany_group_close {
+  display: none;
+  transform: scale(2);
+  transition: all ease-in 4s;
+}
+
+.botany_group {
+  margin: 1rem 1rem;
+
+  .botany_img {
+    overflow: hidden;
+
+    img {
+      width: 400px;
+      height: 300px;
+      overflow: hidden;
+      object-fit: cover;
     }
 
-    p {
-        font-size: 2rem;
+    &:hover {
+      transform: translateY(-1rem) translateX(1rem);
+      transition: all ease-in-out 0.3s;
+      cursor: pointer;
     }
+  }
+
+  h3 {
+    text-transform: uppercase;
+    margin-left: 0.5rem;
+  }
+}
+
+.wildlife_group_display {
+  width: 100%;
+  height: max-content;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  padding: 2rem;
+  background-color: rgba(17, 17, 17, 0.905);
+  cursor: pointer;
+  transition: all ease-in-out 0.3s;
+  border-radius: 1rem;
+
+  .wildlife_group_display_img {
+    width: 100%;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+
+    img {
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+      border-radius: 1rem;
+    }
+  }
+
+  .wildlife_info {
+    color: white;
+    text-align: left;
+  }
+}
+
+.wildlife_group_close {
+  display: none;
+  transform: scale(2);
+  transition: all ease-in 4s;
+}
+
+.wildlife_group {
+  margin: 1rem 1rem;
+
+  .wildlife_img {
+    overflow: hidden;
+    transition: all ease-in-out 0.3s;
+
+    img {
+      width: 400px;
+      height: 300px;
+      overflow: hidden;
+      object-fit: cover;
+    }
+
+    &:hover {
+      transform: translateY(-1rem) translateX(1rem);
+      transition: all ease-in-out 0.3s;
+      cursor: pointer;
+    }
+  }
+
+  h3 {
+    text-transform: uppercase;
+    margin-left: 0.5rem;
+  }
+}
+
+.people_group_display {
+  width: 100%;
+  height: max-content;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  padding: 2rem;
+  background-color: rgba(17, 17, 17, 0.905);
+  cursor: pointer;
+  transition: all ease-in-out 0.3s;
+  border-radius: 1rem;
+
+  .people_group_display_img {
+    width: 100%;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+
+    img {
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+      border-radius: 1rem;
+    }
+  }
+
+  .people_info {
+    color: white;
+    text-align: left;
+  }
+}
+
+.people_group_close {
+  display: none;
+  transform: scale(2);
+  transition: all ease-in 4s;
+}
+
+.people_group {
+  margin: 1rem 1rem;
+
+  .people_img {
+    overflow: hidden;
+    transition: all ease-in-out 0.3s;
+
+    img {
+      width: 400px;
+      height: 300px;
+      overflow: hidden;
+      object-fit: cover;
+    }
+
+    &:hover {
+      transform: translateY(-1rem) translateX(1rem);
+      transition: all ease-in-out 0.3s;
+      cursor: pointer;
+    }
+  }
+
+  h3 {
+    text-transform: uppercase;
+    margin-left: 0.5rem;
+  }
+}
+
+.fix_bg {
+  background-color: black;
+  width: 400px;
+  height: 300px;
 }
