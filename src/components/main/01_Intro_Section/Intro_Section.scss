@@ -55,8 +55,9 @@
 .intro_content {
     color: white;
     margin: 30vh 12rem 0;
-    width: max-content;
+    // width: fit-content;
     height: 100%;
+    position: relative;
 
     h1 {
         font-size: 6rem;
@@ -70,6 +71,9 @@
 
 .intro_content_button {
     margin: 4rem 0;
+    position: absolute;
+    cursor: pointer;
+    z-index: 99;
     
     a {
         text-decoration: none;
@@ -78,10 +82,16 @@
         color: white;  
         font-size: 1rem;
         padding: 2rem 3rem;
+        border-radius: .5rem;
+        cursor: pointer;
     }
 }
 
 .social_links {
+    position: absolute;
+    cursor: pointer;
+    z-index: 99;
+    margin-top: 6rem;
     
     ul {
         display: flex;
