@@ -2,7 +2,7 @@ import React from 'react'
 import Intro from './01_Intro_Section/Intro_Section'
 import Mission from './02_Mission_Section/Mission_Section'
 import Connect from './03_Connect_Section/Connect_Section'
-import Courses from './04_Courses_Section/Courses_Section'
+import Course from './04_Course_Section/Course_Section'
 import Action from './05_Action_Section/Action_Section'
 import Facts from './06_Facts_Section/Facts_Section'
 import Testimonial from './07_Testimonial_Section/Testimonial_Section'
@@ -14,7 +14,7 @@ const Main = () => {
         <Intro></Intro>
         <Mission></Mission>
         <Connect></Connect>
-        <Courses></Courses>
+        <Course></Course>
         <Action></Action>
         <Facts></Facts>
         <Testimonial></Testimonial>
