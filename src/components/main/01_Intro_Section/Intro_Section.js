@@ -66,14 +66,18 @@ const Intro_Section = () => {
 
           <div className="social_links">
             <ul>
-                <li>
-                    <a href="/"><ImFacebook /></a>
-                </li>
-                <li>
-                    <a href="/"><FiInstagram /></a>
-                </li>
+              <li>
+                <a href="/">
+                  <ImFacebook />
+                </a>
+              </li>
+              <li>
+                <a href="/">
+                  <FiInstagram />
+                </a>
+              </li>
             </ul>
-        </div>
+          </div>
         </div>
       </div>
     </div>

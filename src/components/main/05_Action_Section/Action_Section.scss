@@ -71,7 +71,7 @@
     }
 
     &:hover {
-        transform: translate(10px, -10px);
+        transform: scale3d(1.1, 1.1, 1.1);
         transition: all .3s ease-in-out;
     }
 }

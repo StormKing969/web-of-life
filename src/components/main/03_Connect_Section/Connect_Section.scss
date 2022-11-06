@@ -29,6 +29,7 @@
     padding: 2rem;
     width: 18rem;
     cursor: pointer;
+    box-shadow: 0 0 .8rem green;
 
     h1 {
       font-size: 1.3rem;
@@ -52,6 +53,7 @@
     margin: 2rem 0;
     width: 18rem;
     cursor: pointer;
+    box-shadow: 0 0 .8rem green;
 
     h1 {
       font-size: 1.3rem;
@@ -74,6 +76,7 @@
     padding: 2rem;
     width: 18rem;
     cursor: pointer;
+    box-shadow: 0 0 .8rem green;
 
     h1 {
       font-size: 1.3rem;
@@ -159,11 +162,11 @@
     padding: 2rem;
     text-decoration: none;
     color: white;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.466);
+    box-shadow: 0 0 .8rem rgba(0, 0, 0, 0.466);
   }
 
     &:hover {
-        transform: translate(.5rem, -.5rem);
+        transform: scale3d(1.1, 1.1, 1.1);
         transition: all ease-in-out .3s;
     }
 }
