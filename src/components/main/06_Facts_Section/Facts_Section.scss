@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 0 12%;
+  padding: 5rem 12%;
   margin: 5rem 0;
 }
 
@@ -27,34 +27,37 @@
   row-gap: 6rem;
   justify-items: center;
   align-items: center;
-  margin-top: 3rem;
+  margin-top: 5rem;
   width: 100%;
   height: max-content;
 }
 
 .environmental_card_01 {
   position: relative;
-  margin-top: 4rem;
   width: 450px;
   height: 450px;
+  cursor: pointer;
 }
 
 .environmental_card_02 {
   position: relative;
   width: 450px;
   height: 450px;
+  cursor: pointer;
 }
 
 .environmental_card_03 {
   position: relative;
   width: 450px;
   height: 450px;
+  cursor: pointer;
 }
 
 .environmental_card_04 {
   position: relative;
   width: 450px;
   height: 450px;
+  cursor: pointer;
 }
 
 .environmental_color_grey {
@@ -113,17 +116,25 @@
 }
 
 .environmental_card_img_bg {
-    position: absolute;
-    width: 450px;
-    height: 450px;
-    top: 2rem;
-    left: 2rem;
-    transition: all 2s ease-in-out;
-    z-index: -1;
-  
-    img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-    }
+  position: absolute;
+  width: 450px;
+  height: 450px;
+  top: 2rem;
+  left: 2rem;
+  transition: all 2s ease-in-out;
+  z-index: -1;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
+}
+
+.displace_positive_top {
+  top: 2rem;
+}
+
+.displace_negative_top {
+  top: -3rem;
+}
