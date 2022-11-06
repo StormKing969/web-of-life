@@ -7,14 +7,14 @@
   margin: 5rem 0;
 }
 
-.container_info {
-  .container_title {
+.environmental_container_info {
+  .environmental_container_title {
     font-size: 3rem;
     font-weight: 600;
     margin-bottom: 2rem;
   }
 
-  .container_subtitle {
+  .environmental_container_subtitle {
     font-size: 2rem;
     margin-bottom: 2rem;
   }
@@ -57,23 +57,23 @@
   height: 450px;
 }
 
-.color_grey {
+.environmental_color_grey {
   background-color: gray;
 }
 
-.color_green {
+.environmental_color_green {
   background-color: green;
 }
 
-.color_brown {
+.environmental_color_brown {
   background-color: burlywood;
 }
 
-.color_blue {
+.environmental_color_blue {
   background-color: paleturquoise;
 }
 
-.card_info {
+.environmental_card_info {
   position: absolute;
   width: 450px;
   height: 450px;
@@ -82,7 +82,7 @@
   justify-content: center;
   align-items: center;
 
-  .content {
+  .environmental_content {
     color: rgb(0, 0, 0);
     font-weight: 600;
     font-size: 2.2rem;
@@ -92,7 +92,7 @@
   }
 }
 
-.card_img {
+.environmental_card_img {
   position: absolute;
   width: 450px;
   height: 450px;
@@ -112,7 +112,7 @@
   }
 }
 
-.card_img_bg {
+.environmental_card_img_bg {
     position: absolute;
     width: 450px;
     height: 450px;
