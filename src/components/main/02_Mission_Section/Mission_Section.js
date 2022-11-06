@@ -12,8 +12,6 @@ const Mission_Section = () => {
   const [wildlifeClicked, setWildlifeClicked] = useState(false);
   const [peopleClicked, setPeopleClicked] = useState(false);
 
-  console.log(botanyClicked);
-
   return (
     <div className="mission_container">
       <div className="mission_content">

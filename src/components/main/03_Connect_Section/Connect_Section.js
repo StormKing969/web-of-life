@@ -11,10 +11,6 @@ const Connect_Section = () => {
   const [investigateClicked, setInvestigateClicked] = useState(false);
   const [actClicked, setActClicked] = useState(false);
 
-  console.log("reachOutClicked", reachOutClicked);
-  console.log("investigateClicked", investigateClicked);
-  console.log("actClicked", actClicked);
-
   return (
     <div className="connect_container">
       <div className="connect_container_content">
