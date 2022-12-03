@@ -53,30 +53,34 @@ const Intro_Section = () => {
         </div>
 
         <div className="intro_content">
-          <h1>
-            We Can Change the <br></br> World Together
-          </h1>
-          <p>
-            Our world is a beautiful place and it has sustained <br></br>
-            everything living on it for millions of years
-          </p>
-          <div className="intro_content_button">
-            <Link to="/info">Learn More</Link>
+          <div className="intro_content_info">
+            <h1>
+              We Can Change the <br></br> World Together
+            </h1>
+            <p>
+              Our world is a beautiful place and it has sustained <br></br>
+              everything living on it for millions of years
+            </p>
           </div>
+          <div className="intro_content_button">
+            <div className="intro_info_link">
+              <Link to="/info">Learn More</Link>
+            </div>
 
-          <div className="social_links">
-            <ul>
-              <li>
-                <a href="/">
-                  <ImFacebook />
-                </a>
-              </li>
-              <li>
-                <a href="/">
-                  <FiInstagram />
-                </a>
-              </li>
-            </ul>
+            <div className="social_links">
+              <ul>
+                <li>
+                  <a href="/">
+                    <ImFacebook />
+                  </a>
+                </li>
+                <li>
+                  <a href="/">
+                    <FiInstagram />
+                  </a>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
