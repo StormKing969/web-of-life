@@ -51,8 +51,8 @@
     font-size: 1.5rem;
     font-weight: 600;
     text-transform: uppercase;
-    top: 325px;
-    right: 50px;
+    bottom: -30%;
+    left: 0px;
     transition: all .3s ease-in-out;
 
     a {
@@ -98,7 +98,7 @@
   .second_img_container {
     position: absolute;
     top: 200px;
-    right: 200px;
+    left: 100px;
     width: 400px;
     height: 300px;
 
@@ -112,7 +112,7 @@
   .last_img_container {
     position: absolute;
     top: 400px;
-    right: 0;
+    right: 100px;
     width: 400px;
     height: 300px;
 
